@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1644694881,
+        "narHash": "sha256-Zo6nZW99UP2N2ZVUZAW7j4UpddtWDhwEfIF9DGKOee4=",
+        "owner": "Dali99",
+        "repo": "nixpkgs",
+        "rev": "4185ed957dc8e6ce1c4fa9e720f6c9fb921d0f3d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Dali99",
+        "ref": "libaom-tunes",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

@@ -17,10 +17,10 @@ stdenv.mkDerivation rec {
     yasm perl cmake pkg-config python3
   ];
 
-  buildInputs = [
-      libjxl
-      libvmaf
-  ];
+#  buildInputs = [
+#      libjxl
+#      libvmaf
+#  ];
 
   preConfigure = ''
     # build uses `git describe` to set the build version
