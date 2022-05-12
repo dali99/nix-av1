@@ -22,7 +22,9 @@
         apps.aomenc = {
           type = "app";
           program = "${self.packages.${system}.aom-av1-psy.bin}/bin/aomenc";
-        };    
+        };
+
+        hydraJobs.aom-av1-psy = self.packages.${system}.aom-av1-psy;
       }
     );
 }
