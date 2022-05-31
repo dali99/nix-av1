@@ -10,12 +10,12 @@
       in {
         packages.aom-av1-psy = pkgs.libaom.overrideAttrs (old: {
           pname = "aom-av1-psy";
-          version = "unstable-2022-05-24";
+          version = "unstable-2022-05-27";
           src = pkgs.fetchFromGitHub {
             owner = "BlueSwordM";
             repo = "aom-av1-psy";
-            rev = "fc18fec81dbcd1d80f19b78c2807ed433850203b";
-            sha256 = "1xj6fxfr9y587xinw2gnc21waqsncpvv3prwll9pv373h22sf67x";
+            rev = "2f86189644bcd3fcf37c8ec19bbf9394d9de7fc1";
+            sha256 = "sha256-tjlYvma30Ht2m0IX2RGw1Mu8nXcd7RLhmP0CNfadJp0=";
           };
         });
 
