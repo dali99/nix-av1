@@ -1,14 +1,14 @@
 {
   description = "Flake providing aom-av1-psy";
 
-  inputs.nixpkgs.url = github:Dali99/nixpkgs/libaom-tunes;
+  inputs.nixpkgs.url = github:Dali99/nixpkgs/libaom-pbi;
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
   outputs = { self, nixpkgs, flake-utils }: 
     flake-utils.lib.eachDefaultSystem (system:
       let pkgs = nixpkgs.legacyPackages.${system};
       in {
-        packages.aom-av1-psy = pkgs.libaom.overrideAttrs (old: {
+        packages.aom-av1-psy = (pkgs.libaom.overrideAttrs (old: {
           pname = "aom-av1-psy";
           version = "unstable-2022-06-03";
           src = pkgs.fetchFromGitHub {
@@ -17,7 +17,7 @@
             rev = "6fa36a27755a2d39dca9626a7b4e73bab7a374ad";
             sha256 = "sha256-/FwdYqLzund/uHtOfyu2DhsqK09YWUifjV9sBOevDK4=";
           };
-        });
+        })).override { enableButteraugli = true; };
 
         apps.aomenc = {
           type = "app";
