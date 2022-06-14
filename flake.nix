@@ -1,7 +1,7 @@
 {
   description = "Flake providing aom-av1-psy";
 
-  inputs.nixpkgs.url = github:Dali99/nixpkgs/libaom-pbi;
+  inputs.nixpkgs.url = github:NixOS/nixpkgs/staging;
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
   outputs = { self, nixpkgs, flake-utils }: 
