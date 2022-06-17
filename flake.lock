@@ -1,5 +1,22 @@
 {
   "nodes": {
+    "aom-av1-psy": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1654291621,
+        "narHash": "sha256-/FwdYqLzund/uHtOfyu2DhsqK09YWUifjV9sBOevDK4=",
+        "owner": "BlueSwordM",
+        "repo": "aom-av1-psy",
+        "rev": "6fa36a27755a2d39dca9626a7b4e73bab7a374ad",
+        "type": "github"
+      },
+      "original": {
+        "owner": "BlueSwordM",
+        "repo": "aom-av1-psy",
+        "rev": "6fa36a27755a2d39dca9626a7b4e73bab7a374ad",
+        "type": "github"
+      }
+    },
     "flake-utils": {
       "locked": {
         "lastModified": 1653893745,
@@ -17,22 +34,23 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1655208131,
-        "narHash": "sha256-96D+8eq/Tq6MU3FVFKCFYbKn+gpbO3Mn4Yny77GVWgc=",
+        "lastModified": 1655020575,
+        "narHash": "sha256-wG8clHyiSfixGU4Pcy/vz0Wl+cowprTtkDZ52TjYinU=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "179051c702f6ce199e7fbd0160f3a1d950fa4e61",
+        "rev": "826794479e937f70ee2dad3d5cac38d3a0a5cb45",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "staging",
         "repo": "nixpkgs",
+        "rev": "826794479e937f70ee2dad3d5cac38d3a0a5cb45",
         "type": "github"
       }
     },
     "root": {
       "inputs": {
+        "aom-av1-psy": "aom-av1-psy",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs"
       }
