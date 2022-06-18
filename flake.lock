@@ -3,17 +3,17 @@
     "aom-av1-psy": {
       "flake": false,
       "locked": {
-        "lastModified": 1654291621,
-        "narHash": "sha256-/FwdYqLzund/uHtOfyu2DhsqK09YWUifjV9sBOevDK4=",
+        "lastModified": 1655482944,
+        "narHash": "sha256-yGgBV6Bb7WZUY1jEychkWkrHzrv8SDh9XFOQxUNUpyo=",
         "owner": "BlueSwordM",
         "repo": "aom-av1-psy",
-        "rev": "6fa36a27755a2d39dca9626a7b4e73bab7a374ad",
+        "rev": "5dd2b0ccd7ee356a24a6b4611e38cbb1d5861170",
         "type": "github"
       },
       "original": {
         "owner": "BlueSwordM",
+        "ref": "full_build-alpha-4",
         "repo": "aom-av1-psy",
-        "rev": "6fa36a27755a2d39dca9626a7b4e73bab7a374ad",
         "type": "github"
       }
     },

@@ -4,7 +4,7 @@
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/397724176b474080a09422fdc29d3fc85cd43f2a";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
-  inputs.aom-av1-psy.url = "github:/BlueSwordM/aom-av1-psy/6fa36a27755a2d39dca9626a7b4e73bab7a374ad";
+  inputs.aom-av1-psy.url = "github:/BlueSwordM/aom-av1-psy/full_build-alpha-4";
   inputs.aom-av1-psy.flake = false;
 
   outputs = { self, nixpkgs, flake-utils, ... }@inputs:
@@ -21,7 +21,7 @@
       };
     }
     // flake-utils.lib.eachDefaultSystem (system:
-      let pkgs = import nixpkgs { overlays = [ self.overlay ]; config = { inherit system; }; };
+      let pkgs = import nixpkgs { overlays = [ self.overlay ]; inherit system; };
       in {
         packages.aom-av1-psy = pkgs.libaom-psy;
         apps.aomenc-psy = {
