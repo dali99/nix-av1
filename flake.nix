@@ -1,7 +1,7 @@
 {
   description = "Flake providing aom-av1-psy";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/397724176b474080a09422fdc29d3fc85cd43f2a";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/staging-next";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
   inputs.aom-av1-psy.url = "github:/BlueSwordM/aom-av1-psy/full_build-alpha-4";

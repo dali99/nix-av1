@@ -3,11 +3,11 @@
     "aom-av1-psy": {
       "flake": false,
       "locked": {
-        "lastModified": 1655482944,
-        "narHash": "sha256-yGgBV6Bb7WZUY1jEychkWkrHzrv8SDh9XFOQxUNUpyo=",
+        "lastModified": 1656097741,
+        "narHash": "sha256-APSXwoM2uR4bF8BjeK+RfAS/cioqi2jXF07r6kPPQAg=",
         "owner": "BlueSwordM",
         "repo": "aom-av1-psy",
-        "rev": "5dd2b0ccd7ee356a24a6b4611e38cbb1d5861170",
+        "rev": "8969aef75731aa286fa0e89c0fe37e2e1c34518b",
         "type": "github"
       },
       "original": {
@@ -19,11 +19,11 @@
     },
     "flake-utils": {
       "locked": {
-        "lastModified": 1653893745,
-        "narHash": "sha256-0jntwV3Z8//YwuOjzhV2sgJJPt+HY6KhU7VZUL0fKZQ=",
+        "lastModified": 1656065134,
+        "narHash": "sha256-oc6E6ByIw3oJaIyc67maaFcnjYOz1mMcOtHxbEf9NwQ=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "1ed9fb1935d260de5fe1c2f7ee0ebaae17ed2fa1",
+        "rev": "bee6a7250dd1b01844a2de7e02e4df7d8a0a206c",
         "type": "github"
       },
       "original": {
@@ -34,17 +34,17 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1654857967,
-        "narHash": "sha256-Xrb/2EVPJqocoJXrxbeGlzQoBH/rgInoXZQo48rBigY=",
+        "lastModified": 1656115330,
+        "narHash": "sha256-gW/xSWvzsv6LuIn61qdfk96wjXC0SQjL/AF+VqkII1s=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "397724176b474080a09422fdc29d3fc85cd43f2a",
+        "rev": "192fdf11fe8aa5afbe72f70f7d5dd864a1749d8f",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
+        "ref": "staging-next",
         "repo": "nixpkgs",
-        "rev": "397724176b474080a09422fdc29d3fc85cd43f2a",
         "type": "github"
       }
     },
