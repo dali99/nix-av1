@@ -4,6 +4,7 @@
   nixConfig.extra-substituters = ["https://cache.dodsorf.as"];
   nixConfig.exta-trusted-public-keys = "cache.dodsorf.as:FYKGadXTyI2ax8mirBTOjEqS/8PZKAWxiJVOBjESQXc=";
 
+  # inputs.nixpkgs.url = "github:NixOS/nixpkgs/staging-next";
   inputs.nixpkgs.url = "github:Dali99/nixpkgs/libaom_static";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
@@ -41,7 +42,7 @@
         packages.bopus = pkgs.callPackage ./pkgs/bopus { visqol = self.packages.${system}.visqol; };
         
         packages.ffmpeg-static-dav1d = pkgs.ffmpeg-full.override { dav1d = pkgs.pkgsStatic.dav1d; };
-        packages.mpv-static-dav1d = pkgs.wrapMpv (pkgs.mpv-unwrapped.override { ffmpeg = self.packages.${system}.ffmpeg-static-dav1d; }) { };        
+        packages.mpv-static-dav1d = pkgs.wrapMpv (pkgs.mpv-unwrapped.override { ffmpeg = self.packages.${system}.ffmpeg-static-dav1d; }) { };              
       }
     );
 }
