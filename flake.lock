@@ -3,11 +3,11 @@
     "aom-av1-psy": {
       "flake": false,
       "locked": {
-        "lastModified": 1656538179,
-        "narHash": "sha256-jy9y4PUzniEXUpZIOo1MIjMc2sAW+27P+FO5U6vxs2E=",
+        "lastModified": 1662323678,
+        "narHash": "sha256-xZS8R/9BM5rW/FFbh3pPO27g6dkKrjiLEh0BdXb5oxo=",
         "owner": "BlueSwordM",
         "repo": "aom-av1-psy",
-        "rev": "975750938eee95ad0c3e6531d98787c1d8c4987c",
+        "rev": "2828a7432080c01179fd0cbedf3854155515da48",
         "type": "github"
       },
       "original": {
@@ -19,11 +19,11 @@
     },
     "flake-utils": {
       "locked": {
-        "lastModified": 1656928814,
-        "narHash": "sha256-RIFfgBuKz6Hp89yRr7+NR5tzIAbn52h8vT6vXkYjZoM=",
+        "lastModified": 1659877975,
+        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "7e2a3b3dfd9af950a856d66b0a7d01e3c18aa249",
+        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
         "type": "github"
       },
       "original": {
@@ -34,18 +34,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1657321298,
-        "narHash": "sha256-bcV37nS4bBycFAyrHuyGGzUsWdHpjWRX2tOy6FtMaSg=",
-        "owner": "Dali99",
+        "lastModified": 1662096612,
+        "narHash": "sha256-R+Q8l5JuyJryRPdiIaYpO5O3A55rT+/pItBrKcy7LM4=",
+        "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "2b392d00165de0fdcd513f572b2f0bb42f3618dc",
+        "rev": "21de2b973f9fee595a7a1ac4693efff791245c34",
         "type": "github"
       },
       "original": {
-        "owner": "Dali99",
-        "ref": "libaom_static",
-        "repo": "nixpkgs",
-        "type": "github"
+        "id": "nixpkgs",
+        "type": "indirect"
       }
     },
     "root": {

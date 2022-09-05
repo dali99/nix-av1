@@ -4,8 +4,7 @@
   nixConfig.extra-substituters = ["https://cache.dodsorf.as"];
   nixConfig.exta-trusted-public-keys = "cache.dodsorf.as:FYKGadXTyI2ax8mirBTOjEqS/8PZKAWxiJVOBjESQXc=";
 
-  # inputs.nixpkgs.url = "github:NixOS/nixpkgs/staging-next";
-  inputs.nixpkgs.url = "github:Dali99/nixpkgs/libaom_static";
+  # inputs.nixpkgs.url = "github:NixOS/nixpkgs/master";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
   inputs.aom-av1-psy.url = "github:/BlueSwordM/aom-av1-psy/full_build-alpha-4";
